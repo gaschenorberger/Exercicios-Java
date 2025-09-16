@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1c5fae-2d6b-43a7-a889-c39d53fff2bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Exercicios-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/EX1/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EX1/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EX1/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EX1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX1/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EX1/EX1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EX1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/EX1/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EX2/EX2.iml" beforeDir="false" />
@@ -25,6 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gaschenorberger"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gaschenorberger/Exercicios-Java.git",
+    "accountId": "09dc33df-aad1-4eb6-9cad-1bc1659af6c4"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -33,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Desktop/Facul Atividades/Linguagem de Programação/TRABALHO_CERTO/Exercicios-Java&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dell/Desktop/Facul Atividades/Linguagem de Programação/TRABALHO_CERTO/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/schen/Documents/GitHub/Exercicios-Java",
+    "onboarding.tips.debug.path": "C:/Users/Dell/Desktop/Facul Atividades/Linguagem de Programação/TRABALHO_CERTO/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fd1c5fae-2d6b-43a7-a889-c39d53fff2bc" name="Changes" comment="" />
