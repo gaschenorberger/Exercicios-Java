@@ -1,3 +1,10 @@
+/*
+    O objetivo desse script é o usuário entrar com a cor do sinal e a velocidade,
+    e com base nisso o sistema entrará num switch para o sinal, caso vermelho, amarelo e verde.
+    Se passar no vermelho é multa, se passar no vermelho com velocidade nao permitida é 2x multa.
+    Se estiver tudo ok o sistema vai falar que está tudo certo.
+ */
+
 import java.util.Scanner;
 
 public class EX10 {
