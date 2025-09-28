@@ -1,19 +1,29 @@
+/*
+    O objetivo desse script é criar uma calculadora utilizando funções.
+    Para cada operação foi feita uma função para ser chamada no código.
+    Dentre elas (somar, subtrair, multiplicar e dividir)
+    Para chamar essas funções, deve se chamar o objeto da classe (EX17Calculadora - calculadora)
+    calculadora.somar(numero1, numero2), dois parâmetros para realizar a conta.
+ */
+
 import java.util.Scanner;
 
 public class EX17Caluladora {
 
-    public int somar(int numero1, int numero2){
-        int resultadoSoma = numero1 + numero2;
+    private String nomeDaCalculadora = "Super Caculadora"; // Escopo global
+
+    public double somar(double numero1, double numero2){
+        double resultadoSoma = numero1 + numero2; // Local
         return resultadoSoma;
     }
 
-    public int subtrair(int numero1, int numero2){
-        int resultadoSubtr = numero1 - numero2;
+    public double subtrair(double numero1, double numero2){
+        double resultadoSubtr = numero1 - numero2;
         return resultadoSubtr;
     }
 
-    public int multiplicar(int numero1, int numero2){
-        int resultadoMulti = numero1 * numero2;
+    public double multiplicar(double numero1, double numero2){
+        double resultadoMulti = numero1 * numero2;
         return resultadoMulti;
     }
 
@@ -22,11 +32,17 @@ public class EX17Caluladora {
         return resultadoDivi;
     }
 
+    public void exibirNome(){
+        System.out.println("Este programa é a " + this.nomeDaCalculadora);
+    }
+
 
     public static void main(String[] args){
 
         EX17Caluladora calculadora = new EX17Caluladora();
         Scanner sc = new Scanner(System.in);
+
+        calculadora.exibirNome();
 
         System.out.println("Entre com o numero 1: ");
         double numero1 = sc.nextDouble();
@@ -40,30 +56,27 @@ public class EX17Caluladora {
         switch (operacao) {
 
             case 1: // somar
-                int soma = calculadora.somar((int)numero1, (int)numero2);
-                System.out.printf("A soma de %d + %d é: %d", (int) numero1, (int) numero2, soma);
+                double soma = calculadora.somar(numero1, numero2);
+                System.out.printf("A soma de %.1f + %.1f é: %.1f",numero1, numero2, soma);
 
                 break;
             case 2: // subtrair
-                int subtrair = calculadora.subtrair((int)numero1, (int)numero2);
-                System.out.printf("A subtração de %d - %d é: %d", (int) numero1, (int) numero2, subtrair);
+                double subtrair = calculadora.subtrair(numero1, numero2);
+                System.out.printf("A subtração de %.1f - %.1f é: %.1f", numero1, numero2, subtrair);
 
                 break;
             case 3: // multiplicar
-                int multiplicar = calculadora.multiplicar((int) numero1, (int) numero2);
-                System.out.printf("A multiplicação de %d * %d é: %d", (int) numero1, (int) numero2, multiplicar);
+                double multiplicar = calculadora.multiplicar(numero1, numero2);
+                System.out.printf("A multiplicação de %.1f * %.1f é: %.1f", numero1, numero2, multiplicar);
 
                 break;
             case 4: // dividir
                 double dividir = calculadora.divisao(numero1, numero2);
-                System.out.printf("A divisão de  de %d / %d é: %d", (int) numero1, (int) numero2, dividir);
+                System.out.printf("A divisão de  de %.1f / %.1f é: %.1f",numero1, numero2, dividir);
 
                 break;
             default:
                 System.out.println("VOCE DIGITOU A OPERAÇÃO ERRADA!");
         }
-
-
-
     }
 }
