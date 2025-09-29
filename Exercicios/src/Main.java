@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Entre com o seu peso: ");
         float peso = sc.nextFloat();
 
-        System.out.println("Entre com o sua altura: ");
+        System.out.println("Entre com o sua altura: (Utilize virgula ao inves de ponto)");
         float altura = sc.nextFloat();
 
         double resultado = peso / (altura*altura);

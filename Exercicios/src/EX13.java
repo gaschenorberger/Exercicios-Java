@@ -22,14 +22,18 @@ public class EX13 {
             while (i <= 10){
 
                 int tabuada = numeroTabuada * i;
-                System.out.println(numeroTabuada + " * " + i + " = " + tabuada);
-
-                i++;
 
                 if (tabuada > limite) {
                     System.out.println("Resultado " + tabuada + " ultrapassou o limite!");
                     break;
                 }
+                else {
+                    System.out.println(numeroTabuada + " * " + i + " = " + tabuada);
+                }
+
+                i++;
+
+
             }
             System.out.println("\n\n");
         }

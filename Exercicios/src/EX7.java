@@ -1,6 +1,6 @@
 /*
     O objetivo principal desse script é o usuário entrar com o valor da compra e
-    após isso o sistema calcula com base no valor a porcentagem.
+    após isso o sistema calcula com base no valor a porcentagem de desconto.
     Caso o valor for maior que 100 e menor que 500 será 10%, caso o valor for
     maior que 500 o desconto será de 20%.
  */

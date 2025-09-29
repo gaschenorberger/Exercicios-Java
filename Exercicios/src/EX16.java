@@ -40,7 +40,7 @@ public class EX16 {
 
             }
 
-            System.out.println("Gerar outra sequencia? '1' para sim ou '0' para não");
+            System.out.println("\nGerar outra sequencia? '1' para sim ou '0' para não");
             int saida = sc.nextInt();
 
             if (saida == 0) {

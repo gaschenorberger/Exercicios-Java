@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class EX17Caluladora {
 
-    private String nomeDaCalculadora = "Super Caculadora"; // Escopo global
+    private String nomeDaCalculadora = "Caculadora"; // Escopo global
 
     public double somar(double numero1, double numero2){
         double resultadoSoma = numero1 + numero2; // Local
@@ -28,7 +28,7 @@ public class EX17Caluladora {
     }
 
     public double divisao(double numero1, double numero2){
-        double resultadoDivi = numero1 * numero2;
+        double resultadoDivi = numero1 / numero2;
         return resultadoDivi;
     }
 
@@ -72,7 +72,7 @@ public class EX17Caluladora {
                 break;
             case 4: // dividir
                 double dividir = calculadora.divisao(numero1, numero2);
-                System.out.printf("A divisão de  de %.1f / %.1f é: %.1f",numero1, numero2, dividir);
+                System.out.printf("A divisão de  %.1f / %.1f é: %.1f",numero1, numero2, dividir);
 
                 break;
             default:
