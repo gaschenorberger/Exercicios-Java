@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class EX17Caluladora {
 
-    private String nomeDaCalculadora = "Caculadora"; // Escopo global
+    private String nomeDaCalculadora = "Calculadora"; // Escopo global
 
     public double somar(double numero1, double numero2){
         double resultadoSoma = numero1 + numero2; // Local
